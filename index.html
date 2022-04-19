@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Dog</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+<body  class="intro-page">
+  <header>
+    
+    <h1>Top Dog<img id="paw" src="img/paw.png" alt="Dog Paw Print"></h1>
+    
+  </header>
+
+<div class="dogs-intro">
+
+  <section class="fact-file" id="fred-info">
+      <img src="img/fredHead.png"  alt="Springador Fred">
+        <div class ="collapsible-group">
+          <button onclick="infoReveal('collapsible-content-fred')" id="toggle-fred" class="button">Fred</button>
+              <p id="collapsible-content-fred">
+                Freddie is the oldest of the pack - but only by 8 months. He has the loving nature of a lab but the pray drive of a spaniel so don't let him loose in the woods. However if you have a ball he is all yours! He is super strong and will take on Walter in a rumble. 
+                <br>
+                <br>
+                Status: Fred Beats Walter on account of strength and power on the playing field.
+                <br>
+                <br>
+                Weakness: Being that little bit older Fred loves a snooze.
+              </p>
+        </div>  
+  </section>
+
+    
+  
+
+
+  <section class="fact-file"id="olive-info">
+    <img src="img/oliveHead.png" alt=" Dalmatian Olive"> 
+        <div class ="collapsible-group">
+            <button onclick="infoReveal('collapsible-content-olive')" id="toggle-olive" class="button">Olive</button>
+              <p id="collapsible-content-olive">
+                Olive is smart and beautiful but taps into her skills mostly on her own terms! She is lightening fast, nimble and with super stamina - she will out play Fred any day. 
+                <br>
+                <br>
+                  Status: Olive Beats Fred on account of stamina.
+                <br>
+                <br>  
+                  Weakness: Barking - she's not a fan of the noise.
+              </p>
+              </div>
+  </section>
+
+
+  <section class="fact-file" id="Walter-info">
+      <img src="img/waltHead.png" alt=" Golden Doodle Walt">
+        <div class ="collapsible-group">
+          <button onclick="infoReveal('collapsible-content-walter')"id="toggle-walter" class="button">Walter</button>
+              <p id="collapsible-content-walter">
+                Walter is all about the people. He loves nothing more than strutting his stuff around town on a meet and greet. When it comes to dog play Walter likes a bit of noise and is often vocal when charging about. He also loves a toy and will gather them up and keep them close by.
+                <br>
+                <br>
+                Status: Walter Beats Olive on account of noisy play.
+                <br>
+                <br>
+                Weakness: Feisty but less powerful and would ditch dog play to go hang out with the kids.
+              </p>
+        </div>
+  </section>
+
+</div>
+
+<div id="lets-play">
+<a href="main.html"><button class="button">Let's Play!</button></a>
+</div>  
+
+<footer>
+  <p> © Haidee Cardy 2022 </p>
+</footer>
+
+  <script src="./app.js"></script>  
+</body>
+</html>
