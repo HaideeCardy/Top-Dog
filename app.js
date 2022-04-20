@@ -39,8 +39,8 @@ function convertToWord (letter) {
 
 function win (userChoice, computerChoice) {
   
-  const smallUserWord = "user".fontsize(3).sub();
-  const smallCompWord = "comp".fontsize(3).sub();
+  const smallUserWord = "user".fontsize(5).sub();
+  const smallCompWord = "comp".fontsize(5).sub();
   const userChoice_div = document.getElementById(userChoice);
   userScore ++;
   userScore_span.innerHTML = userScore;
@@ -53,8 +53,8 @@ function win (userChoice, computerChoice) {
 
 
 function loose (userChoice, computerChoice) {
-  const smallUserWord = "user".fontsize(3).sub();
-  const smallCompWord = "comp".fontsize(3).sub();
+  const smallUserWord = "user".fontsize(5).sub();
+  const smallCompWord = "comp".fontsize(5).sub();
   const userChoice_div = document.getElementById(userChoice);
   computerScore ++;
   userScore_span.innerHTML = userScore;
@@ -67,8 +67,8 @@ function loose (userChoice, computerChoice) {
 
 
 function draw (userChoice, computerChoice) {
-  const smallUserWord = "user".fontsize(3).sub();
-  const smallCompWord = "comp".fontsize(3).sub();
+  const smallUserWord = "user".fontsize(5).sub();
+  const smallCompWord = "comp".fontsize(5).sub();
   const userChoice_div = document.getElementById(userChoice);
   result_p.innerHTML = `${convertToWord (userChoice)}${smallUserWord} equals ${convertToWord (computerChoice)}${smallCompWord}, It's a draw.`;
   document.getElementById(userChoice).classList.add("gray-glow");

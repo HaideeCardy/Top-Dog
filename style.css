@@ -24,6 +24,19 @@ h1 {
   top: 5%;
 }
 
+#intro-message {
+  text-align: center;
+  color: #4d4b30;
+  background: white;
+  font-family: "Square Peg", cursive;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 5px 0;
+  padding: 2px;
+  position: sticky;
+  top: 8rem;
+}
+
 .dogs-intro p {
   display: none;
   margin: 0 auto;
@@ -97,13 +110,13 @@ p {
 #user-label {
   position: absolute;
   top: 30px;
-  left: -35px;
+  left: -28px;
 }
 
 #computer-label {
   position: absolute;
   top: 30px;
-  right: -40px;
+  right: -35px;
 }
 
 .result {
@@ -238,7 +251,7 @@ footer p {
 
   #olive-info,
   #fred-info {
-    padding-top: 80px;
+    padding-top: 60px;
   }
 
   #toggle-olive {
